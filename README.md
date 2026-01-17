@@ -24,3 +24,6 @@ python -m venv .venv
 .venv\Scripts\activate
 pip install -r requirements.txt
 python -m src.app
+
+
+This is done by Shaza
