@@ -1,8 +1,9 @@
 from typing import List
-from pydantic import BaseModel, Field, ValidationError
+from pydantic import BaseModel, Field, ValidationError, ConfigDict
 
 
 class ProductBrief(BaseModel):
+    model_config = ConfigDict(extra="forbid")
     product_name: str = Field(min_length=2, max_length=80)
     target_audience: str = Field(min_length=3, max_length=120)
     value_proposition: str = Field(min_length=5, max_length=200)

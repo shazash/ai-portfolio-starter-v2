@@ -24,6 +24,11 @@ python -m venv .venv
 .venv\Scripts\activate
 pip install -r requirements.txt
 python -m src.app
+```
+## Tests
+## Includes tests ensuring LLM outputs fail fast when JSON is invalid or schema-incomplete
+```bash
+python -m pytest -q
 
-
+```
 This is done by Shazash
