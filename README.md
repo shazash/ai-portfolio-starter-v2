@@ -31,4 +31,8 @@ python -m src.app
 python -m pytest -q
 
 ```
+## Streamlit Demo
+```bash
+.\.venv\Scripts\python.exe -m streamlit run streamlit_app.py
+```
 This is done by Shazash
