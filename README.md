@@ -26,4 +26,4 @@ pip install -r requirements.txt
 python -m src.app
 
 
-This is done by Shaza
+This is done by Shazash
